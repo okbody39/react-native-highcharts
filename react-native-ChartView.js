@@ -101,6 +101,7 @@ class ChartWeb extends Component {
                     <head>
                         <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
                         <script src="https://code.highcharts.com/highcharts.js"></script>
+                        <script src="https://code.highcharts.com/highcharts-more.js"></script>
                         <script src="https://code.highcharts.com/modules/exporting.js"></script>
                         <script>
                         $(function () {
@@ -156,6 +157,7 @@ class ChartWeb extends Component {
 var styles = StyleSheet.create({
     full: {
         flex: 1,
+        backgroundColor: 'transparent'
     }
 });
 
